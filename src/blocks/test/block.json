@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "padding/test",
+	"version": "1",
+	"title": "Test",
+	"icon": "minus",
+	"example": {},
+	"supports": {
+		"spacing": {
+			"padding": true,
+			"__experimentalSkipSerialization": true
+		}
+	},
+	"textdomain": "padding-test",
+	"editorScript": "file:./index.js"
+}

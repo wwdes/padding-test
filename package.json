@@ -1,0 +1,20 @@
+{
+	"name": "padding-test",
+	"version": "1.0.0",
+	"description": "Padding visualizer testing",
+	"author": "Contributor",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@wordpress/icons": "^9.47.0",
+		"@wordpress/scripts": "^27.7.0",
+		"@wordpress/style-engine": "^1.39.0"
+	},
+	"files": [
+		"*"
+	]
+}
